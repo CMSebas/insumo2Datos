@@ -1,0 +1,55 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Insumo2
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="body">
+  
+        
+  <ion-grid>
+    <ion-row *ngFor="let cuarto of ['Banio']">
+      <ion-col size-xs="12" size-md="6" size-lg="4" >
+        <ion-title >Baño</ion-title>
+        <div class="atras">
+          <div class="adelante" [style.background-color]="color"></div>
+      </div>
+      </ion-col>
+      <ion-col size-xs="12" size-md="6" size-lg="4">
+        <ion-title > Cocina</ion-title>
+        <div class="atras">
+          <div class="adelante" [style.background-color]="color2"></div>
+      </div>
+      </ion-col>
+      <ion-col size-xs="12" size-md="6" size-lg="4">
+        <ion-title >Dormitorio</ion-title>
+        <div class="atras">
+          <div class="adelante" [style.background-color]="color3"></div>
+      </div>
+      </ion-col>
+      <ion-col size-xs="12" size-md="6" size-lg="4">
+        <ion-title >Sala</ion-title>
+        <div class="atras">
+          <div class="adelante" [style.background-color]="color4"></div>
+      </div>
+      </ion-col>
+      <ion-col size-xs="12" size-md="6" size-lg="4">
+        <ion-title >Garaje</ion-title>
+        <div class="atras">
+          <div class="adelante" [style.background-color]="color5"></div>
+      </div>
+      </ion-col>
+      <ion-col size-xs="12" size-md="6" size-lg="4">
+        <ion-title >Cuarto</ion-title>
+        <div class="atras">
+          <div class="adelante" [style.background-color]="color6"></div>
+      </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+</ion-content>
+
+
